@@ -191,7 +191,7 @@ ruff check . && ruff format --check . && mypy   # mypy --strict on indexkit/
 
 All search engine APIs are mocked with `httpx.MockTransport`; **the test suite never contacts a real search engine**. The tests check the documented request formats and response codes for each API, retry and `Retry-After` behaviour, quotas, the dry-run guarantee (no POST is made), confirmation and key-file checks, history-based skipping, hostile XML (billion laughs, external entities), gzip bombs and sitemap index loops.
 
-**Verification status (2026-10-25):** all 63 tests, ruff and `mypy --strict` pass locally on Python 3.12. Sitemap discovery and parsing were also run read-only against a real public site (www.sitemaps.org). **Live submissions to IndexNow, Bing and Google have not been made from this repository**; the request formats are implemented from the official documentation listed in [docs/engines.md](docs/engines.md) and checked by the mocked tests.
+**Verification status (2026-10-25):** all 63 tests, ruff and `mypy --strict` pass locally (Python 3.12) and in GitHub Actions (Python 3.11, 3.12, 3.13). Sitemap discovery and parsing were also run read-only against a real public site (www.sitemaps.org). **Live submissions to IndexNow, Bing and Google have not been made from this repository**; the request formats are implemented from the official documentation listed in [docs/engines.md](docs/engines.md) and checked by the mocked tests.
 
 ## Limitations
 
