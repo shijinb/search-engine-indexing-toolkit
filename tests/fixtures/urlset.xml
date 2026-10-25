@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.example.com/</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://www.example.com/jobs/data-analyst</loc><lastmod>2026-10-20T09:30:00+05:30</lastmod></url>
+  <url><loc>https://www.example.com/jobs/data-analyst#apply</loc></url>
+  <url><loc>https://www.example.com/blog/?utm_source=newsletter&amp;page=2</loc><lastmod>2026-09-01T00:00:00Z</lastmod></url>
+  <url><loc>https://cdn.other-site.com/image.png</loc></url>
+  <url><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://www.example.com/about</loc><lastmod>last tuesday</lastmod></url>
+</urlset>
